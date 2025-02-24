@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "fonte1";
+    src: url(fonte1/PlayfairDisplay-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: "fonte2";
+    src: url(fonte2/Domine-VariableFont_wght.ttf) format('truetype'); 
+}
+
+html, body{
+    background-color: #BDCBCC;
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    display: block;
+}
+header>p{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 15px;
+    font-size: 1,9em;
+    font-weight: 600;
+}
+p > a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: #8ca2a3;
+}
+p > a:hover{
+    color: rgb(83, 106, 83);
+}
+main{
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    max-width: 900px;
+    min-width: 300px;
+}
+section{
+    line-height: 1.8em;
+}
+main > section#primeiro{
+    padding-left: 18vw;
+    padding-top: 80px;
+}
+section#primeiro{
+    padding-bottom: 20vh;
+    
+}
+section#segundo{
+    background-color: #ffffff;
+}
+section#segundo > h1{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 2em;		
+}
+section#segundo > h2{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 6px;
+    color: darkred;
+}
+section#segundo > p{
+    display: inline-block;
+    padding-left: 60px;
+}
+section#segundo > p#bloco3{
+    background-color: lightgray;
+    padding-right: 100px;
+    
+}
+section#terceiro > p{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section#quarto > p{
+    background-color: #ffffff;
+    padding-left: 30px;
+}
+
+nav > p{
+    padding-top: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+nav > p.laranja{
+    background-color: rgba(217, 153, 33, 0.574);
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 10px rgba(169, 169, 169, 0.358);
+    padding: 10px;
+}
+nav > p.rosa{
+    background-color: #A3B38E;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #A3B38E;
+    box-shadow: 5px 5px 10px rgba(169, 169, 169, 0.358);
+    
+}
+nav > p.amarelo{
+    background-color: #d4ce96;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #d4ce96;
+    box-shadow: 5px 5px 10px rgba(169, 169, 169, 0.358);
+}
+
+footer{
+    padding-top: 50px;
+}
+
+aside{
+    background-color: #ffffff;
+    color: rgb(83, 106, 83);
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+}
